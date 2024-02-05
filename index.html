@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <!-- Üst Kisim -->
+    <header>
+      <h1>E-Commerce</h1>
+
+      <input type="text" placeholder="Suchen.." />
+
+      <div>
+        <button id="basket-btn">Einkaufswagen</button>
+        <button>Registrieren</button>
+        <button>Anmelden</button>
+      </div>
+    </header>
+
+    <!-- ana icerik-->
+
+    <main>
+      <!-- kategoriler -->
+      <section id="category-sec">
+        <h1>Kategorie</h1>
+
+        <div class="categories">
+          <!-- <div class="category">
+                    <img src="https://picsum.photos/640/640?r=719" />
+                    <h2>Yiyecek</h2>
+                </div> -->
+        </div>
+      </section>
+
+      <!-- ürünler -->
+      <section id="product-sec">
+        <h1>Produkte</h1>
+
+        <div class="products">
+          <!-- Kart -->
+          <!--      <div class="card">
+                    <img src="https://picsum.photos/640/640?r=663" />
+                    <h4>Parctical soft Cheese</h4>
+                    <h4>electronic</h4>
+    
+                    <div class="info">
+                        <span>500$</span>
+                        <button>Sepete Ekle</button>
+                    </div>
+                </div> -->
+          <!-- Kart -->
+        </div>
+      </section>
+    </main>
+
+    <!-- sepet modal -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <!-- kapatma butonu -->
+        <div id="btn-wrapper">
+          <img id="close-btn" src="images/e-close.png" />
+        </div>
+        <!-- sepetteki ürünler -->
+        <div id="list">
+          <!-- <div class="item">
+                    <img src="images/e-trash.png">
+                    <h3 class="title">tshirt</h3>
+                    <h4 class="price">900</h4>
+                    <p>Miktar: 6</p>
+                    <img id="delete-img" src="images/e-trash.png" />
+                </div> -->
+        </div>
+        <!-- toplam alani -->
+        <div id="total">
+          <span id="count">0 Produkt</span>
+          Summe:
+          <span id="price"> 0</span>$
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
